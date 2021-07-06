@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-        "watch": "nodemon index.js",
-        "test-watch": "jest --watchAll",
-        "test": "jest"
+    "watch": "nodemon index.js",
+    "test-watch": "jest --watchAll",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,8 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^5.13.2"
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@code-fellows/supergoose": "^1.1.0",
