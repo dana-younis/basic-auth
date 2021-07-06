@@ -1,10 +1,9 @@
-  
-"use strict";
+'use strict';
 require("dotenv").config();
 const mongoose = require('mongoose');
 const server = require("./src/server.js");
 const PORT = process.env.PORT||3000;
-const MONGODB_URI = 'mongodb://localhost:27017/auth';
+const MONGODB_URI = process.env.MONGODB_URI
 
 mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
